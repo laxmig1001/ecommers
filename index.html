@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5 JS (for carousel functionality) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div>
+      <!-- header starts -->
+      <div class="headermain">
+        <div class="headerfirstdiv">
+          <p class="headerfirstpara">
+            <i
+              class="fa-solid fa-envelope"
+              style="color: #c8cdd5; padding: 5px"
+            ></i
+            >info@company.com
+          </p>
+
+          <p class="headerfirstpara">
+            <i
+              class="fa-solid fa-phone"
+              style="color: #c8cdd5; padding: 5px"
+            ></i>
+            tel: 123456789
+          </p>
+        </div>
+        <div class="headerseconddiv">
+          <p class="headerfirstpara"><i class="fa-brands fa-instagram"></i></p>
+          <p class="headerfirstpara"><i class="fa-brands fa-facebook"></i></p>
+          <p class="headerfirstpara"><i class="fa-brands fa-twitter"></i></p>
+          <p class="headerfirstpara"><i class="fa-brands fa-linkedin"></i></p>
+        </div>
+      </div>
+      <!-- header ends -->
+      <!-- navbar starts -->
+      <nav class="nvabarmain">
+        <a href="http://" class="navbarheader">Zay</a>
+        <div>
+          <ul class="navdemo">
+            <li>Home</li>
+            <li>Contact</li>
+            <li>Shop</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <div class="navcart">
+          <p><i class="fa-solid fa-magnifying-glass"></i></p>
+          <p><i class="fa-solid fa-cart-plus"></i></p>
+          <p><i class="fa-solid fa-user"></i></p>
+        </div>
+      </nav>
+      <!-- navbar ends -->
+      <!-- carosel starts -->
+      <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex align-items-center">
+              <div class="leftcar col-6">
+                <h1><b>Zay</b> eCommerce</h1>
+                <h3>Tiny and Perfect eCommerce Template</h3>
+                <p>
+                  Zay Shop is an eCommerce HTML5 CSS template with the latest
+                  version of Bootstrap 5. This template is 100% free provided by
+                  TemplateMo.
+                </p>
+              </div>
+              <div class="rightcro col-6">
+                <img
+                  src="./images/banner_img_01.jpg"
+                  class="d-block w-100 carousel-img"
+                  alt="Banner Image 1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- You can duplicate this block for more slides -->
+          <div class="carousel-item">
+            <div class="d-flex align-items-center">
+              <div class="leftcar col-6">
+                <h1><b>Zay</b> eCommerce</h1>
+                <h3>Another Slide</h3>
+                <p>
+                  Enjoy beautiful transitions and responsive design with
+                  Bootstrap Carousel.
+                </p>
+              </div>
+              <div class="rightcro col-6">
+                <img
+                  src="./images/banner_img_02.jpg"
+                  class="d-block w-100 carousel-img"
+                  alt="Banner Image 2"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="carousel-item">
+            <div class="d-flex align-items-center">
+              <div class="leftcar col-6">
+                <h1><b>Zay</b> eCommerce</h1>
+                <h3>Another Slide</h3>
+                <p>
+                  Enjoy beautiful transitions and responsive design with
+                  Bootstrap Carousel.
+                </p>
+              </div>
+              <div class="rightcro col-6">
+                <img
+                  src="./images/banner_img_03.jpg"
+                  class="d-block w-100 carousel-img"
+                  alt="Banner Image 2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#mainCarousel"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon bg-success rounded-circle"
+        ></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#mainCarousel"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon bg-success rounded-circle"
+        ></span>
+      </button>
+    </div>
+    <!-- Carousel End -->
+    <!--card starts-->
+    <div class="maincard">
+      <h1 class="h1">Categories of The Month</h1>
+      <p class="p">
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.
+      </p>
+      <div class="images-cards">
+        <div class="container-cards">
+          <img
+            src="/images/category_img_01.jpg"
+            alt="wotch"
+            class="rounded-img"
+          />
+          <p class="card-info">Watches</p>
+          <button class="button-info">Go shop</button>
+        </div>
+        <div class="container-cards">
+          <img
+            src="/images/category_img_02.jpg"
+            alt="shoes"
+            class="rounded-img"
+          />
+          <p class="card-info">Shoes</p>
+          <button class="button-info">Go shop</button>
+        </div>
+        <div class="container-cards">
+          <img
+            src="/images/category_img_03.jpg"
+            alt="Accessories"
+            class="rounded-img"
+          />
+          <p class="card-info">Accessories</p>
+          <button class="button-info">Go shop</button>
+        </div>
+      </div>
+    </div>
+
+    <!--nextpart-->
+    <div class="maincontainer">
+      <!--  -->
+      <div class="mainheading">
+        <h3 class="text-head">Featured Product</h3>
+        <p>
+          Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident.
+        </p>
+      </div>
+
+      <!--  -->
+      <div class="cardcarosel-container">
+        <div class="containercard">
+          <img src="/images/feature_prod_01.jpg" class="card-iamge" alt="" />
+          <div class="card-bodymain">
+            <ul class="list-unstyle">
+              <li>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-muted fa fa-star"></i>
+                <i class="text-muted fa fa-star"></i>
+              </li>
+              <li class="text-muted">$240.00</li>
+            </ul>
+            <h5 class="card-title">Gym Weight</h5>
+            <p class="para-info">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+              eos distinctio quibusdam ipsum quam eaque. Culpa aut ad dolorum
+              velit.
+            </p>
+            <p class="rev-info">Reviews (24)</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="containercard">
+          <img src="/images/feature_prod_02.jpg" class="card-iamge" alt="" />
+          <div class="card-bodymain">
+            <ul class="list-unstyle">
+              <li>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-muted fa fa-star"></i>
+                <i class="text-muted fa fa-star"></i>
+              </li>
+              <li class="text-muted">$480.00</li>
+            </ul>
+            <h5 class="card-title">Gym Weight</h5>
+            <p class="para-info">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+              eos distinctio quibusdam ipsum quam eaque. Culpa aut ad dolorum
+              velit.
+            </p>
+            <p class="rev-info">Reviews (48)</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="containercard">
+          <img src="/images/feature_prod_03.jpg" class="card-iamge" alt="" />
+          <div class="card-bodymain">
+            <ul class="list-unstyle">
+              <li>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-warning fa fa-star"></i>
+                <i class="text-warning fa fa-star"></i>
+              </li>
+              <li class="text-muted">$480.00</li>
+            </ul>
+            <h5 class="card-title">Gym Weight</h5>
+            <p class="para-info">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+              eos distinctio quibusdam ipsum quam eaque. Culpa aut ad dolorum
+              velit.
+            </p>
+            <p class="rev-info">Reviews (74)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer strat -->
+    <div class="footermain">
+      <div class="footerconter1">
+        <h2 class="fotter-com">zay</h2>
+        <hr />
+        <ul class="listy-footer">
+          <li><i class="fa-solid fa-phone"></i>010-020-0340</li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i>123 Consectetur at ligula
+          </li>
+          <li><i class="fa-solid fa-envelope"></i>info@company.com</li>
+        </ul>
+      </div>
+      <div class="footerconter1">
+        <h2 class="footer-pro">Products</h2>
+        <hr />
+        <ul>
+          <li><a href="a">Luxury</a></li>
+          <li><a href="a">Sport Wear</a></li>
+          <li><a href="a">Men's Shoes</a></li>
+          <li><a href="a">Women's Shoes</a></li>
+          <li><a href="a">Popular Dress</a></li>
+          <li><a href="a">Gym Accessories</a></li>
+          <li><a href="a">Sport Shoes</a></li>
+        </ul>
+      </div>
+      <div class="footerconter1">
+        <h2 class="footer-fur">Further Info</h2>
+        <hr />
+        <ul>
+          <li><a href="a">Home</a></li>
+          <li><a href="a">About Us</a></li>
+          <li><a href="a">Shop Locations</a></li>
+          <li><a href="a">FAQs</a></li>
+          <li><a href="a">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
